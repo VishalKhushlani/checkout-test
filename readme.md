@@ -37,9 +37,20 @@ These are configured directly in the IntelliJ IDEA project settings, under the m
 
 If you prefer using the command line or need to integrate with CI/CD systems, you can use the following instructions.
 
+#### With Maven
+With Maven, you can use these commands:
+
+```bash
+# Build the project
+mvn compile
+
+# Run tests
+mvn test
+```
+
 #### With Gradle
 
-If your project is configured with Gradle, you can use these commands:
+With Gradle, you can use these commands:
 
 ```bash
 # Build the project
@@ -47,7 +58,7 @@ gradle build
 
 # Run tests
 gradle test
-
+```
 ### Running Tests
 
 - Right-click on the `src/test/java` directory in the project explorer.
